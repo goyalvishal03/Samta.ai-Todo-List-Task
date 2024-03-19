@@ -1,0 +1,138 @@
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0%;
+  padding:0%;
+  box-sizing:  border-box;
+}
+
+body {
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.App {
+  text-align:center;
+
+}
+
+h1 {
+  color:aliceblue;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+
+}
+
+.TodoWrapper {
+  background: #262626;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.TodoForm{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid #4d4d4d;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+
+
+}
+
+.todo-input::placeholder{
+  color: #cccccc;
+
+}
+
+
+.todo-btn {
+  background: #ffcc00;
+  color: #1a1a1a;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.incompleted{
+  color: #fff;
+  cursor:pointer;
+}
+
+.completed{
+  color: #c5aeff;
+  cursor:pointer;
+}
+.edit-button, .delete-button{
+  background:  #4d4d4d;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 05.rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 4px;
+}
+
+.task-info {
+  display: flex;
+}
+
+.task-actions{
+  display: flex;
+  align-items: center;
+}
+
+.complete-button {
+  background:  #4d4d4d;
+  color: #fff;
+  border: none;
+  padding: 0.5rem;
+  margin-right: 05.rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333333;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.filter-buttons {
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.filter-buttons button{
+  background: #333333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3sec;
+  margin-right: 1rem;
+}
+
+.filter-buttons button:hover{
+  background:  #262626;
+}
